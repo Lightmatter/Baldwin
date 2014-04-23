@@ -6,11 +6,27 @@
  @import "compass/reset";
  @import "variables";
  @import "buttons";
+ @import "about";
 
- #headerwrap {
+ //global on all pages
 
-    h1 {
-
-    }
-
+ .logo {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
 }
+
+//global for now, will be specifc later per page.
+.background-image {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top:20px;
+    background-attachment: relative;
+    min-height: 900px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+

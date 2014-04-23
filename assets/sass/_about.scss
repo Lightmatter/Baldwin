@@ -1,0 +1,21 @@
+.about-holder {
+    @include round-edge;
+    height:100%;
+    background-color: #a7a7a7;
+    padding: 75px 25px 25px 25px;
+    margin: 20px 0 0 0;
+    border: 2px solid #898989;
+
+    img {
+        margin: 0 0 20px 0;
+    }
+
+p.name {
+    text-align: center;
+    color: $light_text;
+    font-size: 24px;
+}
+    p.bio {
+        text-align: left;
+    }
+}

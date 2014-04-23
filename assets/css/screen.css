@@ -66,3 +66,48 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 1, ../sass/_about.scss */
+.about-holder {
+  border-radius: 8px;
+  height: 100%;
+  background-color: #a7a7a7;
+  padding: 75px 25px 25px 25px;
+  margin: 20px 0 0 0;
+  border: 2px solid #898989;
+}
+/* line 9, ../sass/_about.scss */
+.about-holder img {
+  margin: 0 0 20px 0;
+}
+/* line 13, ../sass/_about.scss */
+.about-holder p.name {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+/* line 18, ../sass/_about.scss */
+.about-holder p.bio {
+  text-align: left;
+}
+
+/* line 13, ../sass/screen.scss */
+.logo {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* line 20, ../sass/screen.scss */
+.background-image {
+  background: url(../img/header-bg.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  background-attachment: relative;
+  min-height: 900px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
