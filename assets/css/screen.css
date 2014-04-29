@@ -111,3 +111,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* line 33, ../sass/screen.scss */
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+}
