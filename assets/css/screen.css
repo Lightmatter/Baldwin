@@ -73,7 +73,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100%;
   background-color: rgba(167, 167, 167, 0.9);
   padding: 75px 25px 25px 25px;
-  margin: 20px 0 0 0;
+  margin: 20px 0 60px 0;
 }
 /* line 8, ../sass/_about.scss */
 .about-holder img {
@@ -81,14 +81,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 /* line 12, ../sass/_about.scss */
 .about-holder p.name {
+  font-family: 'Lato', 'sans-serif';
   text-align: center;
   color: white;
   font-size: 24px;
+  font-weight: 400;
 }
-/* line 17, ../sass/_about.scss */
+/* line 19, ../sass/_about.scss */
 .about-holder p.bio {
+  font-family: 'Lato', 'sans-serif';
   text-align: left;
   color: #fff;
+  line-height: 20px;
 }
 
 /* line 13, ../sass/screen.scss */
