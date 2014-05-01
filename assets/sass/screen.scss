@@ -60,6 +60,24 @@
     margin-top: 50px;
 }
 
+/* TITLE TEXT */
+
+.title-text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* END TITLE TEXT */
+
+/* IMAGE WRAPPER */
+
+.image-wrapper img{
+   height: 150px;
+   width: 150px;
+}
+
+/* END IMAGE WRAPPER */
+
 /* SIDEBAR STYLING */
 
 .menu-wrap{
@@ -70,14 +88,19 @@
     margin-left: 10px;
 }
 
-.menu-wrap h3{
-    margin-left: 20px;
-    color: #808080;
-    display: block;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    border-bottom: 1px solid #a7a7a7;
+.bottom-menu{
+    position: absolute;
+    bottom: 0;
 }
+
+/* END SIDEBAR STYLING */
+
+/* FIVE PROMISES */
+
+.five-promises h3{
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #808080;
+}
+
+/* END FIVE PROMISES */
