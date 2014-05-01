@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $('#logo').click(function(){
+    
+})
+})
+
 ;(function(){
 
 			// Menu settings

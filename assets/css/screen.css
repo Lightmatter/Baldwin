@@ -149,3 +149,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .proof-images {
   margin-top: 50px;
 }
+
+/* SIDEBAR STYLING */
+/* line 65, ../sass/screen.scss */
+.menu-wrap {
+  font-family: 'Lato', 'sans-serif';
+}
+
+/* line 69, ../sass/screen.scss */
+.five-things {
+  margin-left: 10px;
+}
+
+/* line 73, ../sass/screen.scss */
+.menu-wrap h3 {
+  margin-left: 20px;
+  color: #808080;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #a7a7a7;
+}
