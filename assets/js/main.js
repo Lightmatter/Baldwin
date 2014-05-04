@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    $('#logo').click(function(){
-    
-})
+    $('.highlight').hover(function(){
+        $(this).addClass("animated pulse")
+    })
 })
 
 ;(function(){
