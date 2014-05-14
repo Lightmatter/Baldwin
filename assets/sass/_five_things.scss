@@ -66,14 +66,21 @@
     .image-wrapper {
 
         .small-promise {
-            height: 30%;
-            
+            height:250px;
+            width:250px;
         }
 
-        p {
-            font-size:20px;
-        }
+        // p {
+        //     font-size:50px;
+        // }
     }
+
+    // .image-wrapper-large {
+    //     .main-promise {
+    //         height: 100px;
+    //         width: 100px;
+    //     }
+    // }
 }
 
 @media(max-width: 1024px) {

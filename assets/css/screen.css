@@ -151,26 +151,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
   /* line 68, ../sass/_five_things.scss */
   .image-wrapper .small-promise {
-    height: 30%;
-  }
-  /* line 73, ../sass/_five_things.scss */
-  .image-wrapper p {
-    font-size: 20px;
+    height: 250px;
+    width: 250px;
   }
 }
 @media (max-width: 1024px) {
-  /* line 81, ../sass/_five_things.scss */
+  /* line 88, ../sass/_five_things.scss */
   .promise-text {
     text-align: center;
     margin-bottom: 10px;
   }
 
-  /* line 87, ../sass/_five_things.scss */
+  /* line 94, ../sass/_five_things.scss */
   .five-promises {
     padding: 40px;
   }
 
-  /* line 96, ../sass/_five_things.scss */
+  /* line 103, ../sass/_five_things.scss */
   .image-wrapper p {
     font-size: 20px;
   }
