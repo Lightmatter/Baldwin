@@ -79,23 +79,18 @@
 /* IMAGE WRAPPER */
 
 
-.image-wrapper-large img {
-    height: 350px;
-    width: 350px;
-}
+
 
 .image-wrapper-long img {
     height:100%;
     width:100%;
 }
 
-
-
-@media(max-width: 768px) {
-    .image-wrapper-long img {
-        // width: 75%;
-        // height: 75%
-    }
+@media(max-width: 1224px) {
+ .image-wrapper-long img {
+    // width: 99%;
+    // height: 99%;
+}
 }
 
 @media(max-width: 1024px) {
@@ -105,11 +100,11 @@
     }
 }
 
-@media(max-width: 1224px) {
-   .image-wrapper-long img {
-    // width: 99%;
-    // height: 99%;
-}
+@media(max-width: 768px) {
+    .image-wrapper-long img {
+        // width: 75%;
+        // height: 75%
+    }
 }
 
 .margin-top-60 {

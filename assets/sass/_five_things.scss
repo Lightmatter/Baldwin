@@ -53,55 +53,87 @@
 
 
 
-@media(max-width: 768px) {
+//between 1200 and 1224 the .small-promise images enlargen slightly
+//unsure why.
 
-    .promise-text {
-        // text-align:center;
-        // margin-bottom:80px;
-    }
-
-    .five-promises {
-        padding:40px;
-    }
-    .image-wrapper {
-
-        .small-promise {
-            height:250px;
-            width:250px;
+@media(max-width : 1824px) {
+.image-wrapper-large {
+        img {
+            width:70%;
         }
-
-        // p {
-        //     font-size:50px;
-        // }
     }
+}
 
-    // .image-wrapper-large {
-    //     .main-promise {
-    //         height: 100px;
-    //         width: 100px;
-    //     }
-    // }
+@media(max-width: 1224px) {
+    .image-wrapper {
+        .small-promise{
+            width:100%;
+        }
+    }
+    .image-wrapper-large {
+        img {
+            width:70%;
+        }
+    }
 }
 
 @media(max-width: 1024px) {
-
     .promise-text {
         text-align:center;
         margin-bottom:10px;
     }
 
-
     .five-promises {
         padding:40px;
     }
     .image-wrapper {
 
         .small-promise {
-
+            width:100%;
         }
 
         p {
             font-size:20px;
+        }
+    }
+    .image-wrapper-large {
+        display:none;
+        img {
+            
+            width:50%;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+
+    .promise-text {
+        
+    }
+
+    .five-promises {
+        padding:40px;
+    }
+
+    .highlight {
+        // display:none;
+    }
+
+    .image-wrapper {
+
+        .small-promise {
+            width:70%;
+        }
+
+        p {
+            font-size:20px;
+        }
+    }
+
+    .image-wrapper-large {
+        img {
+            // height:90%;
+            // width:90%;
         }
     }
 }
