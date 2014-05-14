@@ -83,62 +83,98 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .about-holder p.name {
   font-family: 'Lato', 'sans-serif';
   text-align: center;
-  color: gray;
+  color: white;
   font-size: 24px;
   font-weight: 400;
 }
-/* line 19, ../sass/_about.scss */
-.about-holder p.bio {
+/* line 20, ../sass/_about.scss */
+.about-holder p.caption {
   font-family: 'Lato', 'sans-serif';
   text-align: left;
   color: #fff;
   line-height: 20px;
 }
-
-/* line 1, ../sass/_five_things.scss */
-.five-things {
-  margin-left: 10px;
+/* line 27, ../sass/_about.scss */
+.about-holder .small {
+  font-size: 14px;
 }
 
-/* line 5, ../sass/_five_things.scss */
+/* line 3, ../sass/_five_things.scss */
 .promise-text {
   text-align: left;
 }
 
-/* line 9, ../sass/_five_things.scss */
+/* line 7, ../sass/_five_things.scss */
 .highlight {
   padding-top: 20px;
   min-height: 270px;
+  border-radius: 4px;
 }
-/* line 14, ../sass/_five_things.scss */
+/* line 13, ../sass/_five_things.scss */
 .highlight:hover {
   background-color: #f9f9f9;
   cursor: pointer;
 }
-/* line 18, ../sass/_five_things.scss */
+/* line 17, ../sass/_five_things.scss */
 .highlight p {
   margin-top: 15px;
 }
 
-/* line 32, ../sass/_five_things.scss */
+/* line 30, ../sass/_five_things.scss */
+.five-promises img {
+  border-radius: 5px;
+}
+/* line 34, ../sass/_five_things.scss */
 .five-promises p {
   color: gray;
   font-family: "Gotham-Book";
 }
-/* line 37, ../sass/_five_things.scss */
+/* line 39, ../sass/_five_things.scss */
 .five-promises h2 {
   font-size: 28px;
   text-transform: uppercase;
   color: gray;
   margin: 20px 0 20px 0;
 }
-/* line 45, ../sass/_five_things.scss */
+/* line 47, ../sass/_five_things.scss */
 .five-promises h3 {
   text-transform: uppercase;
   font-size: 48px;
   color: gray;
 }
 
+@media (max-width: 768px) {
+  /* line 63, ../sass/_five_things.scss */
+  .five-promises {
+    padding: 40px;
+  }
+
+  /* line 68, ../sass/_five_things.scss */
+  .image-wrapper .small-promise {
+    height: 30%;
+  }
+  /* line 73, ../sass/_five_things.scss */
+  .image-wrapper p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 81, ../sass/_five_things.scss */
+  .promise-text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* line 87, ../sass/_five_things.scss */
+  .five-promises {
+    padding: 40px;
+  }
+
+  /* line 96, ../sass/_five_things.scss */
+  .image-wrapper p {
+    font-size: 20px;
+  }
+}
 /* line 16, ../sass/screen.scss */
 .padder {
   padding: 40px 0 60px 0px;
@@ -208,34 +244,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* END TITLE TEXT */
 /* IMAGE WRAPPER */
-/* line 81, ../sass/screen.scss */
-.image-wrapper img {
-  height: 150px;
-  width: 150px;
-}
-
-/* line 86, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .image-wrapper-large img {
   height: 350px;
   width: 350px;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
+.image-wrapper-long img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  /* line 102, ../sass/screen.scss */
+  .image-wrapper-long img {
+    width: 55%;
+    height: 55%;
+  }
+}
+/* line 115, ../sass/screen.scss */
 .margin-top-60 {
   margin-top: 60px;
 }
 
 /* END IMAGE WRAPPER */
 /* SIDEBAR STYLING */
-/* line 99, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .menu-wrap {
   font-family: 'Lato', 'sans-serif';
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .bottom-menu {
   position: absolute;
   bottom: 0;
 }
 
-/* END SIDEBAR STYLING */
+/* line 132, ../sass/screen.scss */
+.italic {
+  font-style: italic;
+}
+
+/* */
+/* Large screens ----------- */
+/*some CSS*/
+/* Desktops and laptops ----------- */
