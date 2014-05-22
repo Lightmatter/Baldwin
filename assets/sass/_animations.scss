@@ -1,0 +1,101 @@
+
+
+//animations
+
+
+@-webkit-keyframes fadeRight {
+  /* line 105, ../../app/assets/stylesheets/_variables.css.scss */
+  0% {
+    opacity: 0;
+    left: -240px;
+  }
+
+  /* line 109, ../../app/assets/stylesheets/_variables.css.scss */
+  35% {
+    opacity: 0;
+    left: -240px;
+  }
+
+  /* line 113, ../../app/assets/stylesheets/_variables.css.scss */
+  100% {
+    opacity: 1;
+    left: 0px;
+  }
+}
+
+
+.fadeRight {
+  opacity: 1;
+  position: relative;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: fadeRight;
+  -webkit-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  -moz-animation-delay: 0s;
+  -moz-animation-duration: 0s;
+  -moz-animation-name: none;
+  -moz-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  -o-animation-delay: 0s;
+  -o-animation-duration: 0s;
+  -o-animation-name:none;
+  -o-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  animation-delay: 0s;
+  animation-duration: 0s;
+  animation-name: none;
+  animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+}
+
+
+
+//animations
+
+
+@-webkit-keyframes fadeLeft {
+  /* line 105, ../../app/assets/stylesheets/_variables.css.scss */
+  0% {
+    opacity: 0;
+    right: -240px;
+  }
+
+  /* line 109, ../../app/assets/stylesheets/_variables.css.scss */
+  35% {
+    opacity: 0;
+    right: -240px;
+  }
+
+  /* line 113, ../../app/assets/stylesheets/_variables.css.scss */
+  100% {
+    opacity: 1;
+    right: 0px;
+  }
+}
+
+
+.fadeLeft{
+  opacity: 1;
+  position: relative;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: fadeLeft;
+  -webkit-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  -moz-animation-delay: 0s;
+  -moz-animation-duration: 0s;
+  -moz-animation-name: none;
+  -moz-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  -o-animation-delay: 0s;
+  -o-animation-duration: 0s;
+  -o-animation-name:none;
+  -o-animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+  animation-delay: 0s;
+  animation-duration: 0s;
+  animation-name: none;
+  animation-fill-mode: forwards;
+  /* this prevents the animation from restarting! */
+}
