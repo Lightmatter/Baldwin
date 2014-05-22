@@ -112,6 +112,11 @@ iframe {
     transform: translateY(-50%);
 }
 
+#headerwrap {
+    background: url(../img/header-bg.png) no-repeat center top;
+    // background-color: #123123;
+}
+
 .proof-images{
     margin-top: 50px;
 }
@@ -205,6 +210,9 @@ iframe {
 }
 
 @media(max-width : 768px) {
+    .play-video {
+    margin-top: 40%;
+}
 
 }
 

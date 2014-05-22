@@ -532,86 +532,98 @@ iframe {
 }
 
 /* line 115, ../sass/screen.scss */
+#headerwrap {
+  background: url(../img/header-bg.png) no-repeat center top;
+}
+
+/* line 120, ../sass/screen.scss */
 .proof-images {
   margin-top: 50px;
 }
 
 /* TITLE TEXT */
-/* line 121, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .title-text {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .image-wrapper-long img {
   height: 80%;
   width: 80%;
 }
 
 @media (max-width: 1224px) {
-  /* line 133, ../sass/screen.scss */
+  /* line 138, ../sass/screen.scss */
   .image-wrapper-long img {
     height: 80%;
     width: 80%;
   }
 }
 @media (max-width: 1024px) {
-  /* line 140, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   .image-wrapper-long img {
     height: 60%;
     width: 60%;
   }
 
-  /* line 145, ../sass/screen.scss */
+  /* line 150, ../sass/screen.scss */
   iframe {
     height: 300px;
     width: 450px;
   }
 }
 @media (max-width: 768px) {
-  /* line 153, ../sass/screen.scss */
+  /* line 158, ../sass/screen.scss */
   .image-wrapper-long img {
     height: 40%;
     width: 40%;
   }
 
-  /* line 158, ../sass/screen.scss */
+  /* line 163, ../sass/screen.scss */
   iframe {
     height: 250px;
     width: 350px;
   }
 }
-/* line 164, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .margin-top-60 {
   margin-top: 60px;
 }
 
 /* END IMAGE WRAPPER */
 /* SIDEBAR STYLING */
-/* line 172, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .menu-wrap {
   font-family: 'Lato', 'sans-serif';
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .bottom-menu {
   position: absolute;
   bottom: 0;
 }
 
-/* line 181, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 185, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .text-align-center {
   text-align: center;
 }
 
-/* line 189, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .padder-50 {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  /* line 213, ../sass/screen.scss */
+  .play-video {
+    margin-top: 40%;
+  }
 }
