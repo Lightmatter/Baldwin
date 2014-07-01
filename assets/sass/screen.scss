@@ -3,6 +3,8 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+
+ @import "compass/css3";
  @import "compass/reset";
  @import "variables";
  @import "buttons";
@@ -12,11 +14,39 @@
  @import "training";
  @import "animations";
 
- // @include font-face('Gotham-Book', font-files("fonts/Gotham-Book.otf", opentype));
+ @include font-face('Gotham-Book', font-files("Gotham-Book.otf", opentype));
+
+ @include font-face('Gotham-Black', font-files("Gotham-Black.otf", opentype));
+ @include font-face('Gotham-Bold', font-files("Gotham-Bold.otf", opentype));
+ @include font-face('Gotham-BoldItalic', font-files("Gotham-BoldItalic.otf", opentype));
+
+ @include font-face('Gotham-Light', font-files("Gotham-Light.otf", opentype));
+
+ @include font-face('Gotham-LightItalic', font-files("Gotham-LightItalic.otf", opentype));
+ 
+ @include font-face('Gotham-Medium', font-files("Gotham-Medium.otf", opentype));
+ @include font-face('Gotham-MediumItalic', font-files("Gotham-MediumItalic.otf", opentype));
+ @include font-face('Gotham-Thin', font-files("Gotham-Thin.otf", opentype));
+ @include font-face('Gotham-ThinItalic', font-files("Gotham-ThinItalic.otf", opentype));
+ @include font-face('Gotham-Ultra', font-files("Gotham-Ultra.otf", opentype));
+ @include font-face('Gotham-UltraItalic', font-files("Gotham-UltraItalic.otf", opentype));
+ @include font-face('Gotham-UltraXLight', font-files("Gotham-Xlight.otf", opentype));
+ @include font-face('Gotham-XLightItalic', font-files("Gotham-XLightItalic.otf", opentype));
+
+
 
  //global on all pages
 
- .padder {
+//  h1, h2, h3, h4, h5, h6, p {
+//     font-family: 'Gotham-Book' !important;
+
+// }
+
+h1#copyright-r {
+    margin:0;
+}
+
+.padder {
     padding: 40px 0 60px 0px;
 }
 
@@ -26,16 +56,17 @@ iframe {
     width:600px;
 }
 
+.logo-header {
+    float:left;
+}
 
-
-.logo {
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 15px;
+.be-better-round {
+ margin-left: 20px;
+ margin-top: 20px;
 }
 
 .play-video {
-    margin-top: 25%;
+    margin-top: 18%;
 
     &:hover {
         cursor:pointer;
@@ -43,11 +74,7 @@ iframe {
     }
 }
 
-//global for now, will be specifc later per page.
-.background-image {
-    background: url(../img/header-bg.jpg) no-repeat center top;
-    margin-top: -10px;
-    padding-top:20px;
+@mixin background-image  {
     background-attachment: relative;
     min-height: 900px;
     width: 100%;
@@ -55,32 +82,17 @@ iframe {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+//global for now, will be specifc later per page.
+.background-image {
+ @include background-image;
+ background: url(../img/header-bg.jpg) no-repeat center top;
 }
 
 .book-background-image {
-    background: url(../img/five-things/powerpoint1.png) no-repeat center top;
-    margin-top: -10px;
-    padding-top:20px;
-    background-attachment: relative;
-    min-height: 900px;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.coaching{
-    background: url('../img/HD5476-001.jpg');
-    margin-top: -10px;
-    padding-top:20px;
-    background-attachment: relative;
-    min-height: 900px;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    @include background-image;
+    background: url(../img/book_background.png) no-repeat center top;
 }
 
 .image-wrapper {
@@ -96,9 +108,14 @@ iframe {
     width:300px;
 }
 
-.dynamic-margin{
-    margin-top:100px;
+a.non-link {
+    cursor:default;
+    &:hover {
+        color:#808080 !important;
+    }
 }
+
+
 
 .button {
     float:left;
@@ -112,9 +129,31 @@ iframe {
     transform: translateY(-50%);
 }
 
+#copyright {
+    position:relative;
+    margin-left: 100px;
+}
+
 #headerwrap {
     background: url(../img/header-bg.png) no-repeat center top;
-    // background-color: #123123;
+
+    h1 {
+
+    }
+    h1#bb {
+        margin:0px;
+        display:inline;
+        font-size:36px;
+        font-family:"Gotham-LightItalic";
+    }
+    h1#copyright-r {
+        margin:0px;
+        display:inline;
+        font-size:36px;
+        position:absolute;
+        bottom:0px;
+
+    }
 }
 
 .proof-images{
@@ -135,7 +174,7 @@ iframe {
 }
 
 @media(max-width: 1224px) {
-   .image-wrapper-long img {
+ .image-wrapper-long img {
     height:80%;
     width:80%;
 }
@@ -161,9 +200,9 @@ iframe {
     }
 
     iframe {
-       height: 250px;
-       width: 350px;
-   }
+     height: 250px;
+     width: 350px;
+ }
 }
 
 .margin-top-60 {
@@ -175,7 +214,6 @@ iframe {
 /* SIDEBAR STYLING */
 
 .menu-wrap{
-    font-family: 'Lato', 'sans-serif';
 }
 
 .bottom-menu{
@@ -196,6 +234,11 @@ iframe {
     padding-bottom:30px;
 }
 
+.clear {
+    clear:both;
+    margin: 0 auto;
+}
+
 
 @media(max-width : 1824px) {
 
@@ -206,13 +249,13 @@ iframe {
 }
 
 @media(max-width : 1024px) {
-   
+
 }
 
 @media(max-width : 768px) {
     .play-video {
-    margin-top: 40%;
-}
+        margin-top: 40%;
+    }
 
 }
 
