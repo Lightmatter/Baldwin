@@ -42,6 +42,16 @@
 
 // }
 
+p, a {
+    font-family: "Gotham-Book";
+}
+
+nav.menu {
+    a  {
+        font-size: 11px;
+    }
+}
+
 h1#copyright-r {
     margin:0;
 }
@@ -58,6 +68,7 @@ iframe {
 
 .logo-header {
     float:left;
+    margin-bottom: 20px;
 }
 
 .be-better-round {
@@ -67,6 +78,7 @@ iframe {
 
 .play-video {
     margin-top: 18%;
+    margin-left:75px;
 
     &:hover {
         cursor:pointer;
@@ -74,26 +86,7 @@ iframe {
     }
 }
 
-@mixin background-image  {
-    background-attachment: relative;
-    min-height: 900px;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
-//global for now, will be specifc later per page.
-.background-image {
- @include background-image;
- background: url(../img/header-bg.jpg) no-repeat center top;
-}
-
-.book-background-image {
-    @include background-image;
-    background: url(../img/book_background.png) no-repeat center top;
-}
 
 .image-wrapper {
     width:100%;
@@ -115,8 +108,6 @@ a.non-link {
     }
 }
 
-
-
 .button {
     float:left;
 }
@@ -134,17 +125,18 @@ a.non-link {
     margin-left: 100px;
 }
 
+#book-background-image {
+    background: url('../img/book_background.png') no-repeat center top;
+}
+
 #headerwrap {
-    background: url(../img/header-bg.png) no-repeat center top;
+    background: url('../img/header-bg.png') no-repeat center top;
 
-    h1 {
-
-    }
     h1#bb {
         margin:0px;
         display:inline;
         font-size:36px;
-        font-family:"Gotham-LightItalic";
+        font-family:"Gotham-Book";
     }
     h1#copyright-r {
         margin:0px;
