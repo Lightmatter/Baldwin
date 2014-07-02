@@ -9,16 +9,16 @@ $(document).ready(function(){
 
 
 //width less than 786
-    if (( $(window).width() <= 768 || $(window).width() <= 1024 )) {
-        $('.fliptext0').insertBefore('.flipimage0');
-        $('.fliptext1').insertBefore('.flipimage1');
-        $('.fliptext2').insertBefore('.flipimage2');
-    }
-    else {
-        $('.flipimage0').insertBefore('.fliptext0');
-        $('.flipimage1').insertBefore('.fliptext1');
-        $('.flipimage2').insertBefore('.fliptext2');
-    }
+if (( $(window).width() <= 768 || $(window).width() <= 1024 )) {
+    $('.fliptext0').insertBefore('.flipimage0');
+    $('.fliptext1').insertBefore('.flipimage1');
+    $('.fliptext2').insertBefore('.flipimage2');
+}
+else {
+    $('.flipimage0').insertBefore('.fliptext0');
+    $('.flipimage1').insertBefore('.fliptext1');
+    $('.flipimage2').insertBefore('.fliptext2');
+}
 })
 
 //show iframe upon clicking butotn.
@@ -33,19 +33,15 @@ $('.play-video').click(function() {
 
 
 $('.highlight').click(function(){
+    $(".main-holder").addClass('hide')
+    id = $(this).data('img')
+    $('#' + id).removeClass('hide')
+});
 
-    $('.highlight').children('')
-
- $('.main-holder').hide();
-
- //recognize the small promise you clicked
- //store that class as a variable
- //show the main image that matches that class
-
-
-    //hide the main image class
-    //show the small promise class you clicked that is the main promise
-
+$('.highlight').click(function(){
+    $(".text-holder").addClass('hide')
+    id = $(this).data('txt')
+    $('#' + id).removeClass('hide')
 });
 
 ;(function(){
