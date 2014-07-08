@@ -1,4 +1,17 @@
+move_window = function(){
+    if (window.location.hash) {
+        var current_promise = window.location.hash
+        current_promise = current_promise.slice(1)
+    } else {
+        var current_promise = "one"
+    } 
+
+    $("[data-url='" + current_promise + "']").click()
+}
+
 $(document).ready(function(){
+
+
     $('.highlight').hover(function(){
         $(this).addClass("animated pulse")
     })
@@ -43,6 +56,20 @@ $('.highlight').click(function(){
     id = $(this).data('txt')
     $('#' + id).removeClass('hide')
 });
+
+
+
+$('.highlight').click(function() {
+    promise = $(this)
+    url = "five_things.html#" + promise.data('url')
+    title = promise.children('p').text()
+    pageObject = {'title':title, 'url':url}
+    history.pushState(pageObject, pageObject.title, pageObject.url)
+})
+
+move_window()
+window.onpopstate = move_window
+
 
 ;(function(){
 
