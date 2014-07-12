@@ -5,7 +5,6 @@ move_window = function(){
     } else {
         var current_promise = "one"
     } 
-
     $("[data-url='" + current_promise + "']").click()
 }
 
