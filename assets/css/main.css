@@ -110,7 +110,7 @@ a:after {
     text-align:center;
     background-attachment: relative;
 
-    min-height: 900px;
+    min-height: 936px;
     width: 100%;
 
     -webkit-background-size: 100%;
@@ -226,7 +226,7 @@ a:after {
 	max-width: 160px;
 }
 
-.menu a {
+.menu a, .menu p {
 	margin-left: 20px;
 	color: #808080;
 	display: block;
@@ -235,6 +235,10 @@ a:after {
 	line-height: 40px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+}
+
+.menu p {
+    margin-bottom: 0px;
 }
 
 .menu a:hover {

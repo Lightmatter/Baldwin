@@ -1,42 +1,42 @@
 /* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 
- @import "compass/css3";
- @import "compass/reset";
- @import "variables";
- @import "buttons";
- @import "about";
- @import "five_things";
- @import "proof";
- @import "training";
- @import "animations";
+@import "compass/css3";
+@import "compass/reset";
+@import "variables";
+@import "buttons";
+@import "about";
+@import "five_things";
+@import "proof";
+@import "training";
+@import "animations";
 
- @include font-face('Gotham-Book', font-files("Gotham-Book.otf", opentype));
+@include font-face('Gotham-Book', font-files("Gotham-Book.otf", opentype));
 
- @include font-face('Gotham-Black', font-files("Gotham-Black.otf", opentype));
- @include font-face('Gotham-Bold', font-files("Gotham-Bold.otf", opentype));
- @include font-face('Gotham-BoldItalic', font-files("Gotham-BoldItalic.otf", opentype));
+@include font-face('Gotham-Black', font-files("Gotham-Black.otf", opentype));
+@include font-face('Gotham-Bold', font-files("Gotham-Bold.otf", opentype));
+@include font-face('Gotham-BoldItalic', font-files("Gotham-BoldItalic.otf", opentype));
 
- @include font-face('Gotham-Light', font-files("Gotham-Light.otf", opentype));
+@include font-face('Gotham-Light', font-files("Gotham-Light.otf", opentype));
 
- @include font-face('Gotham-LightItalic', font-files("Gotham-LightItalic.otf", opentype));
- 
-
- @include font-face('Gotham-Medium', font-files("Gotham-Medium.otf", opentype));
- @include font-face('Gotham-MediumItalic', font-files("Gotham-MediumItalic.otf", opentype));
- @include font-face('Gotham-Thin', font-files("Gotham-Thin.otf", opentype));
- @include font-face('Gotham-ThinItalic', font-files("Gotham-ThinItalic.otf", opentype));
- @include font-face('Gotham-Ultra', font-files("Gotham-Ultra.otf", opentype));
- @include font-face('Gotham-UltraItalic', font-files("Gotham-UltraItalic.otf", opentype));
- @include font-face('Gotham-UltraXLight', font-files("Gotham-Xlight.otf", opentype));
- @include font-face('Gotham-XLightItalic', font-files("Gotham-XLightItalic.otf", opentype));
+@include font-face('Gotham-LightItalic', font-files("Gotham-LightItalic.otf", opentype));
 
 
+@include font-face('Gotham-Medium', font-files("Gotham-Medium.otf", opentype));
+@include font-face('Gotham-MediumItalic', font-files("Gotham-MediumItalic.otf", opentype));
+@include font-face('Gotham-Thin', font-files("Gotham-Thin.otf", opentype));
+@include font-face('Gotham-ThinItalic', font-files("Gotham-ThinItalic.otf", opentype));
+@include font-face('Gotham-Ultra', font-files("Gotham-Ultra.otf", opentype));
+@include font-face('Gotham-UltraItalic', font-files("Gotham-UltraItalic.otf", opentype));
+@include font-face('Gotham-UltraXLight', font-files("Gotham-Xlight.otf", opentype));
+@include font-face('Gotham-XLightItalic', font-files("Gotham-XLightItalic.otf", opentype));
 
- //global on all pages
+
+
+//global on all pages
 
 //  h1, h2, h3, h4, h5, h6, p {
 //     font-family: 'Gotham-Book' !important;
@@ -62,6 +62,10 @@ h1#copyright-r {
     padding: 40px 0 60px 0px;
 }
 
+.padder-right {
+    padding-right: 40px;
+}
+
 
 iframe {
     height:400px;
@@ -74,8 +78,8 @@ iframe {
 }
 
 .be-better-round {
- margin-left: 20px;
- margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .play-video {
@@ -127,9 +131,7 @@ a.non-link {
     margin-left: 115px;
 }
 
-#book-background-image {
-    background: url('../img/book_background.png') no-repeat center top;
-}
+
 
 #headerwrap {
     background: url('../img/header-bg.png') no-repeat center top;
@@ -169,10 +171,10 @@ a.non-link {
 }
 
 @media(max-width: 1224px) {
- .image-wrapper-long img {
-    height:80%;
-    width:80%;
-}
+    .image-wrapper-long img {
+        height:80%;
+        width:80%;
+    }
 }
 
 @media(max-width: 1024px) {
@@ -195,9 +197,9 @@ a.non-link {
     }
 
     iframe {
-     height: 250px;
-     width: 350px;
- }
+        height: 250px;
+        width: 350px;
+    }
 }
 
 .margin-top-60 {
@@ -251,12 +253,46 @@ a.non-link {
 
 }
 
+
+
+#book-background-image {
+    background: url('../img/book_background.png') no-repeat center top;
+
+    h1 {
+        color: #d9Aa7e;
+        font-size: 100px;
+// font-weight:bold;
+font-family:'Gotham-Bold';
+text-transform: uppercase;
+text-align:right;
+}
+
+
+h2 {
+    color: #d9Aa7e;
+    font-size: 50px;
+    font-family:'Gotham-Bold';
+    text-transform: uppercase;
+    text-align:right;
+}
+
+.bottom-push {
+    margin-bottom:340px;
+}
+
+p {
+    text-transform: uppercase;
+    color: #fff;
+    font-size:20px;
+    font-weight:bold;
+    text-align:right;
+
+    span {
+        color: #d9Aa7e;
+    }
+}
+
 a#book-link {
-    margin-top: 600px;
-    margin-left: 400px;
-    display:inline-block;
-    margin-top: 530px;
-    margin-left: 782px;
     color: #d9Aa7e;
     font-family:'Gotham-Book';
     font-weight: bold;
@@ -265,6 +301,11 @@ a#book-link {
         color: #fff;
     }
 }
+
+
+}
+
+
 
 
 

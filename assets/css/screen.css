@@ -1,7 +1,7 @@
 /* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 17, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -105,48 +105,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-size: 24px;
 }
 
-/* line 2, ../sass/_five_things.scss */
-.promise-text {
-  text-align: left;
-}
-
-/* line 6, ../sass/_five_things.scss */
+/* line 3, ../sass/_five_things.scss */
 .highlight {
   padding-top: 20px;
   min-height: 270px;
   border-radius: 4px;
 }
-/* line 12, ../sass/_five_things.scss */
+/* line 9, ../sass/_five_things.scss */
 .highlight:hover {
   background-color: #f9f9f9;
   cursor: pointer;
 }
-/* line 16, ../sass/_five_things.scss */
+/* line 13, ../sass/_five_things.scss */
 .highlight p {
   margin-top: 15px;
 }
 
-/* line 29, ../sass/_five_things.scss */
+/* line 26, ../sass/_five_things.scss */
 .five-promises h1, .five-promises h2, .five-promises h3 {
   font-family: "Gotham-Book";
 }
-/* line 33, ../sass/_five_things.scss */
+/* line 30, ../sass/_five_things.scss */
 .five-promises img {
   border-radius: 5px;
 }
-/* line 37, ../sass/_five_things.scss */
+/* line 34, ../sass/_five_things.scss */
 .five-promises p {
   color: gray;
   font-family: "Gotham-Book";
 }
-/* line 42, ../sass/_five_things.scss */
+/* line 39, ../sass/_five_things.scss */
+.five-promises .promise-text {
+  text-align: left;
+  font-size: 15px;
+  line-height: 22px;
+}
+/* line 45, ../sass/_five_things.scss */
 .five-promises h2 {
   font-size: 28px;
   text-transform: uppercase;
   color: gray;
   margin: 20px 0 20px 0;
 }
-/* line 50, ../sass/_five_things.scss */
+/* line 53, ../sass/_five_things.scss */
 .five-promises h3 {
   text-transform: uppercase;
   font-size: 48px;
@@ -154,63 +155,63 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @media (max-width: 1824px) {
-  /* line 64, ../sass/_five_things.scss */
+  /* line 67, ../sass/_five_things.scss */
   .image-wrapper-large img {
     width: 70%;
   }
 }
 @media (max-width: 1224px) {
-  /* line 72, ../sass/_five_things.scss */
+  /* line 75, ../sass/_five_things.scss */
   .image-wrapper .small-promise {
     width: 100%;
   }
 
-  /* line 77, ../sass/_five_things.scss */
+  /* line 80, ../sass/_five_things.scss */
   .image-wrapper-large img {
     width: 90%;
   }
 }
 @media (max-width: 1024px) {
-  /* line 84, ../sass/_five_things.scss */
+  /* line 87, ../sass/_five_things.scss */
   .promise-text {
     text-align: center;
     margin-bottom: 10px;
   }
 
-  /* line 89, ../sass/_five_things.scss */
+  /* line 92, ../sass/_five_things.scss */
   .five-promises {
     padding: 40px;
   }
 
-  /* line 94, ../sass/_five_things.scss */
+  /* line 97, ../sass/_five_things.scss */
   .image-wrapper .small-promise {
     width: 100%;
   }
-  /* line 98, ../sass/_five_things.scss */
+  /* line 101, ../sass/_five_things.scss */
   .image-wrapper p {
     font-size: 20px;
   }
 
-  /* line 102, ../sass/_five_things.scss */
+  /* line 105, ../sass/_five_things.scss */
   .image-wrapper-large {
     display: none;
   }
-  /* line 104, ../sass/_five_things.scss */
+  /* line 107, ../sass/_five_things.scss */
   .image-wrapper-large img {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  /* line 117, ../sass/_five_things.scss */
+  /* line 120, ../sass/_five_things.scss */
   .five-promises {
     padding: 40px;
   }
 
-  /* line 127, ../sass/_five_things.scss */
+  /* line 130, ../sass/_five_things.scss */
   .image-wrapper .small-promise {
     width: 70%;
   }
-  /* line 131, ../sass/_five_things.scss */
+  /* line 134, ../sass/_five_things.scss */
   .image-wrapper p {
     font-size: 20px;
   }
@@ -525,65 +526,70 @@ h1#copyright-r {
   padding: 40px 0 60px 0px;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
+.padder-right {
+  padding-right: 40px;
+}
+
+/* line 70, ../sass/screen.scss */
 iframe {
   height: 400px;
   width: 600px;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .logo-header {
   float: left;
   margin-bottom: 20px;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .be-better-round {
   margin-left: 20px;
   margin-top: 20px;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .play-video {
   margin-top: 15.6%;
   margin-left: 75px;
 }
-/* line 85, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .play-video:hover {
   cursor: pointer;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .image-wrapper {
   width: 100%;
   height: 100%;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .width-300-px {
   width: 300px;
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 a.non-link {
   cursor: default;
 }
-/* line 108, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 a.non-link:hover {
   color: #808080 !important;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .button {
   float: left;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .vertical-align img {
   position: relative;
   top: 50%;
@@ -592,29 +598,24 @@ a.non-link:hover {
   transform: translateY(-50%);
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 #copyright {
   position: relative;
   margin-left: 115px;
 }
 
-/* line 130, ../sass/screen.scss */
-#book-background-image {
-  background: url("../img/book_background.png") no-repeat center top;
-}
-
-/* line 134, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 #headerwrap {
   background: url("../img/header-bg.png") no-repeat center top;
 }
-/* line 137, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 #headerwrap h1#bb {
   margin: 0px;
   display: inline;
   font-size: 36px;
   font-family: "Gotham-Book";
 }
-/* line 143, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 #headerwrap h1#copyright-r {
   margin: 0px;
   display: inline;
@@ -624,110 +625,141 @@ a.non-link:hover {
   margin-left: -5px;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .proof-images {
   margin-top: 50px;
 }
 
 /* TITLE TEXT */
-/* line 160, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .title-text {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-/* line 166, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .image-wrapper-long img {
   height: 80%;
   width: 80%;
 }
 
 @media (max-width: 1224px) {
-  /* line 172, ../sass/screen.scss */
+  /* line 174, ../sass/screen.scss */
   .image-wrapper-long img {
     height: 80%;
     width: 80%;
   }
 }
 @media (max-width: 1024px) {
-  /* line 179, ../sass/screen.scss */
+  /* line 181, ../sass/screen.scss */
   .image-wrapper-long img {
     height: 60%;
     width: 60%;
   }
 
-  /* line 184, ../sass/screen.scss */
+  /* line 186, ../sass/screen.scss */
   iframe {
     height: 300px;
     width: 450px;
   }
 }
 @media (max-width: 768px) {
-  /* line 192, ../sass/screen.scss */
+  /* line 194, ../sass/screen.scss */
   .image-wrapper-long img {
     height: 40%;
     width: 40%;
   }
 
-  /* line 197, ../sass/screen.scss */
+  /* line 199, ../sass/screen.scss */
   iframe {
     height: 250px;
     width: 350px;
   }
 }
-/* line 203, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .margin-top-60 {
   margin-top: 60px;
 }
 
 /* END IMAGE WRAPPER */
 /* SIDEBAR STYLING */
-/* line 214, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .bottom-menu {
   position: absolute;
   bottom: 0;
 }
 
-/* line 219, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 .text-align-center {
   text-align: center;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .padder-50 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 .clear {
   clear: both;
   margin: 0 auto;
 }
 
 @media (max-width: 768px) {
-  /* line 248, ../sass/screen.scss */
+  /* line 250, ../sass/screen.scss */
   .play-video {
     margin-top: 40%;
   }
 }
-/* line 254, ../sass/screen.scss */
-a#book-link {
-  margin-top: 600px;
-  margin-left: 400px;
-  display: inline-block;
-  margin-top: 530px;
-  margin-left: 782px;
+/* line 258, ../sass/screen.scss */
+#book-background-image {
+  background: url("../img/book_background.png") no-repeat center top;
+}
+/* line 261, ../sass/screen.scss */
+#book-background-image h1 {
+  color: #d9Aa7e;
+  font-size: 100px;
+  font-family: 'Gotham-Bold';
+  text-transform: uppercase;
+  text-align: right;
+}
+/* line 271, ../sass/screen.scss */
+#book-background-image h2 {
+  color: #d9Aa7e;
+  font-size: 50px;
+  font-family: 'Gotham-Bold';
+  text-transform: uppercase;
+  text-align: right;
+}
+/* line 279, ../sass/screen.scss */
+#book-background-image .bottom-push {
+  margin-bottom: 340px;
+}
+/* line 283, ../sass/screen.scss */
+#book-background-image p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+/* line 290, ../sass/screen.scss */
+#book-background-image p span {
+  color: #d9Aa7e;
+}
+/* line 295, ../sass/screen.scss */
+#book-background-image a#book-link {
   color: #d9Aa7e;
   font-family: 'Gotham-Book';
   font-weight: bold;
 }
-/* line 264, ../sass/screen.scss */
-a#book-link:hover {
+/* line 300, ../sass/screen.scss */
+#book-background-image a#book-link:hover {
   color: #fff;
 }

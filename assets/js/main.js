@@ -37,6 +37,7 @@ else {
 $('.play-video').click(function() {
     $('iframe').removeClass('hide')
     $('.play-video').hide()
+    $('#bb').hide()
 })
 
 
