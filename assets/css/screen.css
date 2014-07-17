@@ -732,14 +732,14 @@ a.non-link:hover {
 /* line 271, ../sass/screen.scss */
 #book-background-image h2 {
   color: #d9Aa7e;
-  font-size: 50px;
+  font-size: 30px;
   font-family: 'Gotham-Bold';
   text-transform: uppercase;
   text-align: right;
 }
 /* line 279, ../sass/screen.scss */
 #book-background-image .bottom-push {
-  margin-bottom: 340px;
+  margin-bottom: 250px;
 }
 /* line 283, ../sass/screen.scss */
 #book-background-image p {
