@@ -67,10 +67,10 @@ h1#copyright-r {
 }
 
 
-// iframe {
-//     height:400px;
-//     width:600px;
-// }
+ .small-iframe {
+     position: relative;
+     z-index: 20;
+ }
 
 .logo-header {
     float:left;
@@ -188,10 +188,7 @@ a.non-link {
         width:450px;
     }
 
-    iframe.small-iframe {
-        height: 250px;
-        width: 400px;
-    }
+   
 }
 
 @media(max-width: 768px) {
