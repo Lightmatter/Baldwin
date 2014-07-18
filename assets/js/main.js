@@ -48,6 +48,18 @@ $('.play-video').click(function() {
 
 })
 
+$('.play-video-5').click(function() {
+    $('.test').hide()
+    $('iframe').removeClass('hide')
+    $('.play-video-5').hide()
+
+
+
+
+})
+
+
+
 
 
 //5 promises rotate images
@@ -69,7 +81,7 @@ $('.highlight').click(function(){
 
 $('.highlight').click(function() {
     promise = $(this)
-    url = "five_things.html#" + promise.data('url')
+    url = "five_promises.html#" + promise.data('url')
     title = promise.children('p').text()
     pageObject = {'title':title, 'url':url}
     history.pushState(pageObject, pageObject.title, pageObject.url)
