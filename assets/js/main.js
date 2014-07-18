@@ -25,11 +25,17 @@ if (( $(window).width() <= 768 || $(window).width() <= 1024 )) {
     $('.fliptext0').insertBefore('.flipimage0');
     $('.fliptext1').insertBefore('.flipimage1');
     $('.fliptext2').insertBefore('.flipimage2');
+    $('.fliptext3').insertBefore('.flipimage3');
+    $('.fliptext4').insertBefore('.flipimage4');
+    $('.fliptext5').insertBefore('.flipimage5');
 }
 else {
     $('.flipimage0').insertBefore('.fliptext0');
     $('.flipimage1').insertBefore('.fliptext1');
     $('.flipimage2').insertBefore('.fliptext2');
+    $('.flipimage3').insertBefore('.fliptext3');
+    $('.flipimage4').insertBefore('.fliptext4');
+    $('.flipimage5').insertBefore('.fliptext5');
 }
 })
 
@@ -38,6 +44,8 @@ $('.play-video').click(function() {
     $('iframe').removeClass('hide')
     $('.play-video').hide()
     $('#bb').hide()
+    $('#copyright-r').hide()
+
 })
 
 
