@@ -10,17 +10,17 @@
 
  .be-better {
   margin-top: 20%;
- }
+}
 
 body {
   background-color: #f2f2f2;
-    font-family: 'EB Garamond', serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
 
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
@@ -69,7 +69,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -83,28 +83,28 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
-	/*background: url(../img/header-bg.png) no-repeat center top;*/
-	margin-top: -10px;
-	padding-top:20px;
-	text-align:center;
-	background-attachment: relative;
+   #headerwrap {
+       /*background: url(../img/header-bg.png) no-repeat center top;*/
+       margin-top: -10px;
+       padding-top:20px;
+       text-align:center;
+       background-attachment: relative;
 
-	min-height: 900px;
-	width: 100%;
+       min-height: 900px;
+       width: 100%;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+       -webkit-background-size: 100%;
+       -moz-background-size: 100%;
+       -o-background-size: 100%;
+       background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+   }
 
-#book-background-image {
+   #book-background-image {
     margin-top: -10px;
     padding-top:20px;
     text-align:center;
@@ -215,6 +215,7 @@ a:after {
 	text-transform: uppercase;
 	color: #ffffff;
 	margin-top: 20px;
+
 }
 
 .menu h1.logo a:hover {
@@ -272,19 +273,19 @@ a:after {
 	top: 20px;
 	right: 5px;
 	-webkit-transition: all .1s ease-in-out;
-	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
-		 -o-transition: all .1s ease-in-out;
-			transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .menu-close:hover {
 	color: #ffffff;
 	-webkit-transition: all .1s ease-in-out;
-	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
-		 -o-transition: all .1s ease-in-out;
-			transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 /* Push the body after clicking the menu button */
@@ -305,10 +306,10 @@ a:after {
 .menu,
 .body-push {
 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-		-ms-transition: all .3s ease;
-		 -o-transition: all .3s ease;
-			transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 #menuToggle {
@@ -326,20 +327,20 @@ a:after {
 	cursor: pointer;
 	background: rgba(0,0,0,0.25);
 	-webkit-transition: all .1s ease-in-out;
-	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
-		 -o-transition: all .1s ease-in-out;
-			transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 #menuToggle:hover {
 	color: #ffffff;
 	background: rgba(0,0,0,0.2);
 	-webkit-transition: all .1s ease-in-out;
-	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
-		 -o-transition: all .1s ease-in-out;
-			transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 

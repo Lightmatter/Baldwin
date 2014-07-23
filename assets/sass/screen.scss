@@ -53,9 +53,20 @@ nav.menu {
     }
 }
 
+h1.logo {
+    /*for the small copy right sign*/
+    span {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+}
 h1#copyright-r {
     margin:0;
     font-size:15px;
+}
+
+.video-padder {
+    margin-top:8%;
 }
 
 .padder {
@@ -78,8 +89,7 @@ h1#copyright-r {
 }
 
 .be-better-round {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 20px 0 20px 20px;
 }
 
 .play-video {
@@ -278,7 +288,7 @@ a.non-link {
     }
 
     .bottom-push {
-        margin-bottom:250px;
+        margin-bottom:100px;
     }
 
     p {
@@ -293,13 +303,25 @@ a.non-link {
         }
     }
 
+    .margin-top-7-percent {
+        margin-top: 7%;
+    }
+
+    .see-sample {
+        margin-top:10px;
+        font-size:12px;
+    }
+
     a#book-link {
-        color: #d9Aa7e;
+        color: #fff;
+        text-transform:uppercase;
         font-family:'Gotham-Book';
         font-weight: bold;
 
+        
+
         &:hover {
-            color: #fff;
+            color:#d9Aa7e; ;
         }
     }
 
