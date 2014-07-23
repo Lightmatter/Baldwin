@@ -78,10 +78,10 @@ h1#copyright-r {
 }
 
 
- .small-iframe {
-     position: relative;
-     z-index: 20;
- }
+.small-iframe {
+ position: relative;
+ z-index: 20;
+}
 
 .logo-header {
     float:left;
@@ -89,7 +89,7 @@ h1#copyright-r {
 }
 
 .be-better-round {
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 20px 0px;
 }
 
 .play-video {
@@ -198,7 +198,7 @@ a.non-link {
         width:450px;
     }
 
-   
+
 }
 
 @media(max-width: 768px) {
@@ -276,6 +276,12 @@ a.non-link {
         font-family:'Gotham-Bold';
         text-transform: uppercase;
         text-align:right;
+    }
+
+    h1.tm {
+
+        font-size: 20px;
+        margin-top: 210px;
     }
 
 

@@ -576,7 +576,7 @@ h1#copyright-r {
 
 /* line 91, ../sass/screen.scss */
 .be-better-round {
-  margin: 20px 0 20px 20px;
+  margin: 20px 0 20px 0px;
 }
 
 /* line 95, ../sass/screen.scss */
@@ -759,7 +759,12 @@ a.non-link:hover {
   text-transform: uppercase;
   text-align: right;
 }
-/* line 282, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
+#book-background-image h1.tm {
+  font-size: 20px;
+  margin-top: 210px;
+}
+/* line 288, ../sass/screen.scss */
 #book-background-image h2 {
   color: #d9Aa7e;
   font-size: 30px;
@@ -767,11 +772,11 @@ a.non-link:hover {
   text-transform: uppercase;
   text-align: right;
 }
-/* line 290, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 #book-background-image .bottom-push {
   margin-bottom: 100px;
 }
-/* line 294, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 #book-background-image p {
   text-transform: uppercase;
   color: #fff;
@@ -779,27 +784,27 @@ a.non-link:hover {
   font-weight: bold;
   text-align: right;
 }
-/* line 301, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 #book-background-image p span {
   color: #d9Aa7e;
 }
-/* line 306, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 #book-background-image .margin-top-7-percent {
   margin-top: 7%;
 }
-/* line 310, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 #book-background-image .see-sample {
   margin-top: 10px;
   font-size: 12px;
 }
-/* line 315, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 #book-background-image a#book-link {
   color: #fff;
   text-transform: uppercase;
   font-family: 'Gotham-Book';
   font-weight: bold;
 }
-/* line 323, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 #book-background-image a#book-link:hover {
   color: #d9Aa7e;
 }

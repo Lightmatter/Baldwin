@@ -19,6 +19,10 @@ $(document).ready(function(){
         $(this).addClass("animated pulse")
     })
 
+    $('.be-better-round').hover(function(){
+        $(this).addClass("animated pulse")
+    })
+
 
 //width less than 786
 if (( $(window).width() <= 768 || $(window).width() <= 1024 )) {
