@@ -60,6 +60,11 @@ p, a {
        right: 295px;
        color: #fff !important;
    }
+   
+
+p.dark {
+    color:#000 !important;
+}
 }
 
 .menu-name {
@@ -258,8 +263,7 @@ a.non-link {
 
 /* SIDEBAR STYLING */
 
-.menu-wrap{
-}
+
 
 .bottom-menu{
     position: absolute;
