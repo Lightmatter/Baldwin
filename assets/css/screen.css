@@ -783,7 +783,7 @@ a.non-link:hover {
 }
 /* line 309, ../sass/screen.scss */
 #book-background-image {
-  background: url("../img/book_background.png") no-repeat center top;
+  background: url("../img/book_background.jpg") no-repeat center top;
 }
 /* line 312, ../sass/screen.scss */
 #book-background-image h1 {
