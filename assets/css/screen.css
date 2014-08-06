@@ -544,7 +544,7 @@ p, a {
 .menu-open .menu-name {
   position: absolute;
   top: 40px !important;
-  right: 295px;
+  right: 277px;
   color: #fff !important;
 }
 /* line 65, ../sass/screen.scss */
@@ -556,7 +556,7 @@ p, a {
 .menu-name {
   position: absolute;
   top: 40px;
-  right: 275px;
+  right: 255px;
   color: #fff !important;
 }
 
@@ -783,7 +783,7 @@ a.non-link:hover {
 }
 /* line 310, ../sass/screen.scss */
 #book-background-image {
-  background: url("../img/book_background.png") no-repeat center top;
+  background: url("../img/book_background_new.png") no-repeat center top;
 }
 /* line 313, ../sass/screen.scss */
 #book-background-image h1 {
