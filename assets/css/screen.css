@@ -841,3 +841,9 @@ a.non-link:hover {
 #book-background-image a#book-link:hover {
   color: #d9Aa7e;
 }
+
+/* line 374, ../sass/screen.scss */
+#twitter-widget-0 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
