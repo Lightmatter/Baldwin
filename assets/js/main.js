@@ -26,6 +26,8 @@ $(document).ready(function(){
 
 if (( $(window).width() <= 330 )) {
     $('#headerwrap').removeClass('headerwrap-desktop');
+    $('.shrink-logo-2').removeClass('shrink-logo-2');
+    $('.shrink-logo').removeClass('shrink-logo');
 }
 else {
     return;

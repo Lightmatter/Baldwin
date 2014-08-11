@@ -823,12 +823,12 @@ a.non-link:hover {
   font-family: 'Gotham-Book';
   font-weight: bold;
 }
-/* line 371, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 #book-background-image a#book-link:hover {
   color: #d9Aa7e;
 }
 
-/* line 376, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 .headerwrap-desktop {
   -webkit-background-size: 100% !important;
   -moz-background-size: 100% !important;
@@ -837,7 +837,7 @@ a.non-link:hover {
 }
 
 @media (max-width: 1224px) {
-  /* line 384, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   .headerwrap-desktop {
     -webkit-background-size: 100% !important;
     -moz-background-size: 100% !important;
@@ -846,25 +846,25 @@ a.non-link:hover {
   }
 }
 @media (max-width: 768px) {
-  /* line 404, ../sass/screen.scss */
+  /* line 393, ../sass/screen.scss */
   #book-background-image {
     background-image: none;
     background-color: #612E19;
   }
-  /* line 408, ../sass/screen.scss */
+  /* line 397, ../sass/screen.scss */
   #book-background-image h1 {
     font-size: 60px;
   }
-  /* line 411, ../sass/screen.scss */
+  /* line 400, ../sass/screen.scss */
   #book-background-image h2 {
     font-size: 20px;
   }
-  /* line 415, ../sass/screen.scss */
+  /* line 404, ../sass/screen.scss */
   #book-background-image .bottom-push {
     margin-bottom: 20px;
   }
 }
-/* line 422, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 #twitter-widget-0 {
   margin-left: 20px;
   margin-top: 10px;

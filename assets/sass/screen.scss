@@ -57,23 +57,23 @@ p, a {
 
 .menu-open {
     .menu-name {
-       position: absolute;
-       top: 40px !important;
-       right: 277px;
-       color: #fff !important;
-   }
+     position: absolute;
+     top: 40px !important;
+     right: 277px;
+     color: #fff !important;
+ }
 
 
-   p.dark {
+ p.dark {
     color:#000 !important;
 }
 }
 
 .menu-name {
-   position: absolute;
-   top: 40px;
-   right: 255px;
-   color: #fff !important;
+ position: absolute;
+ top: 40px;
+ right: 255px;
+ color: #fff !important;
 }
 
 .menu {
@@ -124,8 +124,8 @@ h1#copyright-r {
 
 
 .small-iframe {
- position: relative;
- z-index: 20;
+   position: relative;
+   z-index: 20;
 }
 
 .logo-header {
@@ -365,58 +365,46 @@ a.non-link {
         text-transform:uppercase;
         font-family:'Gotham-Book';
         font-weight: bold;
-
-        
-
         &:hover {
             color:#d9Aa7e; ;
         }
     }
 }
 .headerwrap-desktop{
-   -webkit-background-size: 100% !important;
-   -moz-background-size: 100% !important;
-   -o-background-size: 100% !important;
-   background-size: 100% !important;
+ -webkit-background-size: 100% !important;
+ -moz-background-size: 100% !important;
+ -o-background-size: 100% !important;
+ background-size: 100% !important;
 }
 
 @media(max-width: 1224px) {
     .headerwrap-desktop{
-       -webkit-background-size: 100% !important;
-       -moz-background-size: 100% !important;
-       -o-background-size: 100% !important;
-       background-size: 100% !important;
-   }
-
+     -webkit-background-size: 100% !important;
+     -moz-background-size: 100% !important;
+     -o-background-size: 100% !important;
+     background-size: 100% !important;
+ }
 }
-
-@media(max-width: 1024px) {
-
-}
-
 
 //need to add this class here and make important to overide on mobile.
 
-
-
 @media(max-width: 768px) {
 
-#book-background-image {
-    background-image:none;
-    background-color: #612E19;
+    #book-background-image {
+        background-image:none;
+        background-color: #612E19;
 
-    h1 {
-        font-size: 60px;
-    }
-    h2 {
-        font-size:20px;
-    }
+        h1 {
+            font-size: 60px;
+        }
+        h2 {
+            font-size:20px;
+        }
 
-    .bottom-push {
-        margin-bottom: 20px;
+        .bottom-push {
+            margin-bottom: 20px;
+        }
     }
-}
-
 }
 
 #twitter-widget-0 {
