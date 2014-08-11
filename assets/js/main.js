@@ -12,17 +12,24 @@ $(document).ready(function(){
 
 
     $('.highlight').hover(function(){
-        $(this).addClass("animated pulse")
-    })
+        $(this).addClass("animated pulse");
+    });
 
     $('.play-video').hover(function(){
-        $(this).addClass("animated pulse")
-    })
+        $(this).addClass("animated pulse");
+    });
 
     $('.be-better-round').hover(function(){
-        $(this).addClass("animated pulse")
-    })
+        $(this).addClass("animated pulse");
+    });
 
+
+if (( $(window).width() <= 330 )) {
+    $('#headerwrap').removeClass('headerwrap-desktop');
+}
+else {
+    return;
+}
 
 //width less than 786
 if (( $(window).width() <= 768 || $(window).width() <= 1024 )) {

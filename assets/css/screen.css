@@ -828,31 +828,43 @@ a.non-link:hover {
   color: #d9Aa7e;
 }
 
-@media (max-width: 768px) {
-  /* line 388, ../sass/screen.scss */
-  .container-min {
-    min-width: 320px !important;
-  }
+/* line 376, ../sass/screen.scss */
+.headerwrap-desktop {
+  -webkit-background-size: 100% !important;
+  -moz-background-size: 100% !important;
+  -o-background-size: 100% !important;
+  background-size: 100% !important;
+}
 
-  /* line 392, ../sass/screen.scss */
+@media (max-width: 1224px) {
+  /* line 384, ../sass/screen.scss */
+  .headerwrap-desktop {
+    -webkit-background-size: 100% !important;
+    -moz-background-size: 100% !important;
+    -o-background-size: 100% !important;
+    background-size: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  /* line 404, ../sass/screen.scss */
   #book-background-image {
     background-image: none;
     background-color: #612E19;
   }
-  /* line 396, ../sass/screen.scss */
+  /* line 408, ../sass/screen.scss */
   #book-background-image h1 {
     font-size: 60px;
   }
-  /* line 399, ../sass/screen.scss */
+  /* line 411, ../sass/screen.scss */
   #book-background-image h2 {
     font-size: 20px;
   }
-  /* line 403, ../sass/screen.scss */
+  /* line 415, ../sass/screen.scss */
   #book-background-image .bottom-push {
     margin-bottom: 20px;
   }
 }
-/* line 410, ../sass/screen.scss */
+/* line 422, ../sass/screen.scss */
 #twitter-widget-0 {
   margin-left: 20px;
   margin-top: 10px;
