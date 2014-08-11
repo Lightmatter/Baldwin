@@ -222,36 +222,34 @@ a.non-link {
 
 
 .image-wrapper-long img {
-    height:80%;
-    width:80%;
+    // height:80%;
+    // width:80%;
 }
 
 @media(max-width: 1224px) {
-    .image-wrapper-long img {
-        height:80%;
-        width:80%;
-    }
+    // .image-wrapper-long img {
+    //     height:80%;
+    //     width:80%;
+    // }
 }
 
 @media(max-width: 1024px) {
-    .image-wrapper-long img {
-        height:60%;
-        width:60%;
-    }
+    // .image-wrapper-long img {
+    //     height:60%;
+    //     width:60%;
+    // }
 
     iframe {
         height:300px;
         width:450px;
     }
-
-
 }
 
 @media(max-width: 768px) {
 
     .image-wrapper-long img {
-        height:40%;
-        width:40%;
+        height:60%;
+        width:60%;
     }
 
     iframe {
@@ -375,6 +373,39 @@ a.non-link {
         }
     }
 }
+
+
+@media(max-width: 1224px) {
+    
+}
+
+@media(max-width: 1024px) {
+    
+}
+
+@media(max-width: 768px) {
+
+    .container-min {
+        min-width:320px !important;
+    }
+
+    #book-background-image {
+        background-image:none;
+        background-color: #612E19;
+
+        h1 {
+            font-size: 60px;
+        }
+        h2 {
+            font-size:20px;
+        }
+
+        .bottom-push {
+            margin-bottom: 20px;
+        }
+    }
+
+    }
 
 #twitter-widget-0 {
     margin-left: 20px;
