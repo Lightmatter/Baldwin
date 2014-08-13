@@ -7,7 +7,11 @@
 
     img {
         margin: 0 0 20px 0;
+
     }
+.constrain-about-image {
+    width:75%;
+}
 
     p {
          font-family: "Gotham-Book"
@@ -19,6 +23,7 @@
         font-size: 24px;
         font-weight: 400;
     }
+
 
     p.caption {
         color: #fff;

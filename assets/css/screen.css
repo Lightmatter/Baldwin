@@ -80,27 +80,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin: 0 0 20px 0;
 }
 /* line 12, ../sass/_about.scss */
+.about-holder .constrain-about-image {
+  width: 75%;
+}
+/* line 16, ../sass/_about.scss */
 .about-holder p {
   font-family: "Gotham-Book";
 }
-/* line 16, ../sass/_about.scss */
+/* line 20, ../sass/_about.scss */
 .about-holder p.name {
   text-align: center;
   color: white;
   font-size: 24px;
   font-weight: 400;
 }
-/* line 23, ../sass/_about.scss */
+/* line 28, ../sass/_about.scss */
 .about-holder p.caption {
   color: #fff;
   line-height: 20px;
   font-size: 20px;
 }
-/* line 30, ../sass/_about.scss */
+/* line 35, ../sass/_about.scss */
 .about-holder .small {
   font-size: 18px;
 }
-/* line 35, ../sass/_about.scss */
+/* line 40, ../sass/_about.scss */
 .about-holder .large {
   font-size: 24px;
 }
