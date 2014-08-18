@@ -729,53 +729,58 @@ a.non-link:hover {
     height: 250px;
     width: 350px;
   }
+
+  /* line 260, ../sass/screen.scss */
+  .logo-header {
+    margin-left: 15px;
+  }
 }
-/* line 261, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .margin-top-60 {
   margin-top: 60px;
 }
 
 /* END IMAGE WRAPPER */
 /* SIDEBAR STYLING */
-/* line 271, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .bottom-menu {
   position: absolute;
   bottom: 0;
 }
 
-/* line 276, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 280, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .text-align-center {
   text-align: center;
 }
 
-/* line 284, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .padder-50 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-/* line 289, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .clear {
   clear: both;
   margin: 0 auto;
 }
 
 @media (max-width: 768px) {
-  /* line 305, ../sass/screen.scss */
+  /* line 299, ../sass/screen.scss */
   .play-video {
     margin-top: 40%;
   }
 }
-/* line 312, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 #book-background-image {
   background: url("../img/book_background_new.png") no-repeat center top;
 }
-/* line 316, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 #book-background-image h1 {
   color: #d9Aa7e;
   font-size: 100px;
@@ -783,12 +788,12 @@ a.non-link:hover {
   text-transform: uppercase;
   text-align: right;
 }
-/* line 324, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 #book-background-image h1.tm {
   font-size: 20px;
   margin-right: -30px;
 }
-/* line 331, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 #book-background-image h2 {
   color: #d9Aa7e;
   font-size: 30px;
@@ -796,11 +801,11 @@ a.non-link:hover {
   text-transform: uppercase;
   text-align: right;
 }
-/* line 339, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 #book-background-image .bottom-push {
   margin-bottom: 100px;
 }
-/* line 343, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 #book-background-image p {
   text-transform: uppercase;
   color: #fff;
@@ -808,31 +813,31 @@ a.non-link:hover {
   font-weight: bold;
   text-align: right;
 }
-/* line 350, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 #book-background-image p span {
   color: #d9Aa7e;
 }
-/* line 355, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 #book-background-image .margin-top-7-percent {
   margin-top: 7%;
 }
-/* line 359, ../sass/screen.scss */
+/* line 353, ../sass/screen.scss */
 #book-background-image .see-sample {
   margin-top: 10px;
 }
-/* line 363, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 #book-background-image a#book-link {
   color: #fff;
   text-transform: uppercase;
   font-family: 'Gotham-Book';
   font-weight: bold;
 }
-/* line 368, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 #book-background-image a#book-link:hover {
   color: #d9Aa7e;
 }
 
-/* line 373, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 .headerwrap-desktop {
   -webkit-background-size: 100% !important;
   -moz-background-size: 100% !important;
@@ -841,7 +846,7 @@ a.non-link:hover {
 }
 
 @media (max-width: 1224px) {
-  /* line 381, ../sass/screen.scss */
+  /* line 375, ../sass/screen.scss */
   .headerwrap-desktop {
     -webkit-background-size: 100% !important;
     -moz-background-size: 100% !important;
@@ -850,25 +855,31 @@ a.non-link:hover {
   }
 }
 @media (max-width: 768px) {
-  /* line 393, ../sass/screen.scss */
+  /* line 387, ../sass/screen.scss */
+  .container-min {
+    min-width: 340px !important;
+  }
+
+  /* line 391, ../sass/screen.scss */
   #book-background-image {
     background-image: none;
     background-color: #612E19;
+    padding-right: 20px;
   }
-  /* line 397, ../sass/screen.scss */
+  /* line 396, ../sass/screen.scss */
   #book-background-image h1 {
     font-size: 60px;
   }
-  /* line 400, ../sass/screen.scss */
+  /* line 399, ../sass/screen.scss */
   #book-background-image h2 {
     font-size: 20px;
   }
-  /* line 404, ../sass/screen.scss */
+  /* line 403, ../sass/screen.scss */
   #book-background-image .bottom-push {
     margin-bottom: 20px;
   }
 }
-/* line 410, ../sass/screen.scss */
+/* line 409, ../sass/screen.scss */
 #twitter-widget-0 {
   margin-left: 20px;
   margin-top: 10px;

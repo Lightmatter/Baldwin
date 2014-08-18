@@ -256,6 +256,10 @@ a.non-link {
         height: 250px;
         width: 350px;
     }
+
+    .logo-header {
+        margin-left: 15px;
+    }
 }
 
 .margin-top-60 {
@@ -289,16 +293,6 @@ a.non-link {
 .clear {
     clear:both;
     margin: 0 auto;
-}
-
-
-@media(max-width : 1824px) {
-}
-
-@media(max-width : 1224px) {
-}
-
-@media(max-width : 1024px) {
 }
 
 @media(max-width : 768px) {
@@ -390,9 +384,14 @@ a.non-link {
 
 @media(max-width: 768px) {
 
+    .container-min {
+        min-width:340px !important;
+    }
+
     #book-background-image {
         background-image:none;
         background-color: #612E19;
+        padding-right:20px;
 
         h1 {
             font-size: 60px;
