@@ -10,6 +10,12 @@ move_window = function(){
 
 $(document).ready(function(){
 
+    $('.play-video-5').click(function() {
+    $('.test').hide();
+    $('iframe').removeClass('hide');
+    $('.play-video-5').hide();
+});
+
 
     $('.highlight').hover(function(){
         $(this).addClass("animated pulse");
@@ -61,11 +67,7 @@ else {
 //     $('#copyright-r').hide();
 // });
 
-$('.play-video-5').click(function() {
-    $('.test').hide();
-    $('iframe').removeClass('hide');
-    $('.play-video-5').hide();
-});
+
 
 if (( $(window).width() <= 330 )) {
     $('.highlight').click(function() {
