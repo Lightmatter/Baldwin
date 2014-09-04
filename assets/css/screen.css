@@ -165,7 +165,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .five-promises .play-video-5 {
   position: absolute;
   margin-top: -255px;
-  margin-left: 140px;
+  margin-left: 240px;
   z-index: 10;
 }
 /* line 72, ../sass/_five_things.scss */
@@ -181,66 +181,71 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 @media (max-width: 1224px) {
   /* line 93, ../sass/_five_things.scss */
+  .play-video-5 {
+    margin-left: 240px !important;
+  }
+
+  /* line 99, ../sass/_five_things.scss */
   .image-wrapper .small-promise {
     width: 100%;
   }
 
-  /* line 98, ../sass/_five_things.scss */
+  /* line 104, ../sass/_five_things.scss */
   .image-wrapper-large img {
-    width: 90%;
+    width: 70%;
   }
 }
 @media (max-width: 1024px) {
-  /* line 106, ../sass/_five_things.scss */
+  /* line 114, ../sass/_five_things.scss */
   .play-video-5 {
     display: none;
   }
 
-  /* line 109, ../sass/_five_things.scss */
+  /* line 117, ../sass/_five_things.scss */
   .promise-text {
     text-align: center;
     margin-bottom: 10px;
   }
 
-  /* line 114, ../sass/_five_things.scss */
+  /* line 122, ../sass/_five_things.scss */
   .five-promises {
     padding: 40px;
   }
 
-  /* line 119, ../sass/_five_things.scss */
+  /* line 127, ../sass/_five_things.scss */
   .image-wrapper .small-promise {
     width: 100%;
   }
-  /* line 123, ../sass/_five_things.scss */
+  /* line 131, ../sass/_five_things.scss */
   .image-wrapper p {
     font-size: 20px;
   }
 
-  /* line 127, ../sass/_five_things.scss */
+  /* line 135, ../sass/_five_things.scss */
   .image-wrapper-large {
     display: none;
   }
-  /* line 129, ../sass/_five_things.scss */
+  /* line 137, ../sass/_five_things.scss */
   .image-wrapper-large img {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  /* line 142, ../sass/_five_things.scss */
+  /* line 150, ../sass/_five_things.scss */
   .five-promises {
     padding: 40px;
   }
 
-  /* line 152, ../sass/_five_things.scss */
+  /* line 160, ../sass/_five_things.scss */
   .image-wrapper .small-promise {
     width: 70%;
   }
-  /* line 156, ../sass/_five_things.scss */
+  /* line 164, ../sass/_five_things.scss */
   .image-wrapper p {
     font-size: 20px;
   }
 }
-/* line 172, ../sass/_five_things.scss */
+/* line 180, ../sass/_five_things.scss */
 p.dark {
   color: #000 !important;
 }

@@ -65,7 +65,7 @@
     .play-video-5 {
         position: absolute;
         margin-top: -255px;
-        margin-left:140px;
+        margin-left:240px;
         z-index:10;
 
 
@@ -89,6 +89,12 @@
 }
 
 @media(max-width: 1224px) {
+
+.play-video-5 {
+        margin-left:240px !important;
+    }
+    
+
     .image-wrapper {
         .small-promise{
             width:100%;
@@ -96,10 +102,12 @@
     }
     .image-wrapper-large {
         img {
-            width:90%;
+            width:70%;
         }
     }
 }
+
+
 
 @media(max-width: 1024px) {
 
