@@ -48,7 +48,9 @@ p, a {
     font-family: "Gotham-Book";
 }
 
-
+.right {
+    float:right;
+}
 
 .margin-bottom-0 {
     margin-bottom:0;
@@ -263,6 +265,10 @@ a.non-link {
 
 .margin-top-60 {
     margin-top: 60px;
+}
+
+.margin-top-20 {
+    margin-top:20px;
 }
 
 /* END IMAGE WRAPPER */
