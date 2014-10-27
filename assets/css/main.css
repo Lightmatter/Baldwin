@@ -85,23 +85,23 @@ hr {
 
    #headerwrap {
        /*background: url(../img/header-bg.png) no-repeat center top;*/
-       margin-top: -10px;
-       padding-top:20px;
+       /*margin-top: -10px;*/
+       /*padding-top:20px;*/
        text-align:center;
        background-attachment: relative;
 
        min-height: 900px;
        width: 100%;
 
-      /* -webkit-background-size: 100%;
+       -webkit-background-size: 100%;
        -moz-background-size: 100%;
        -o-background-size: 100%;
-       background-size: 100%;*/
+       background-size: 100%;
 
-      /* -webkit-background-size: cover;
+       -webkit-background-size: cover;
        -moz-background-size: cover;
        -o-background-size: cover;
-       background-size: cover;*/
+       background-size: cover;
    }
 
    #book-background-image {
@@ -110,7 +110,7 @@ hr {
     text-align:center;
     background-attachment: relative;
 
-    min-height: 936px;
+    min-height: 990px;
     width: 100%;
 
     -webkit-background-size: 100%;
@@ -118,10 +118,10 @@ hr {
     -o-background-size: 100%;
     background-size: 100%;
 
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 #headerwrap h1 {
