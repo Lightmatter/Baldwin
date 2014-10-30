@@ -307,12 +307,50 @@ a.non-link {
 }
 
 
+#other-background{
+    height: 1090px;
+    width: 28%;
+    background-color:#000;
+    float:right;
 
+    .see-sample {
+        color: #5D96C6;
+        margin-right:85px;
+        font-style:italic;
+        margin-left:10%;
+        font-size: 16px;
+    }
+
+    a#book-link {
+        color: #fff;
+        text-transform:uppercase;
+        font-family:'Gotham-Book';
+        font-weight: bold;
+        display:block;
+        position:relative;
+        margin-top:50%;
+        margin-bottom:20px;
+        margin-left:10%;
+        font-size: 28px;
+
+        &:hover {
+            color:#d9Aa7e; ;
+        }
+    }
+
+}
+
+.container-min {
+  height: 1090px;  
+}
 #book-background-image {
     // background: url('../img/book_background_new.png') no-repeat center top;
     // background: url('../img/book_background.jpg') no-repeat center top;
     // background: url('../img/jaw_background.jpg');
     background: url('../img/jaw_background.jpg') no-repeat center top;
+    width:72%;
+    float:left;
+    height:1090px;
 
     h1 {
         color: #d9Aa7e;
@@ -337,9 +375,7 @@ a.non-link {
         text-align:right;
     }
 
-    .bottom-push {
-        margin-bottom:100px;
-    }
+    
 
     p {
         text-transform: uppercase;
@@ -357,19 +393,7 @@ a.non-link {
         margin-top: 7%;
     }
 
-    .see-sample {
-        margin-top:10px;
-    }
-
-    a#book-link {
-        color: #fff;
-        text-transform:uppercase;
-        font-family:'Gotham-Book';
-        font-weight: bold;
-        &:hover {
-            color:#d9Aa7e; ;
-        }
-    }
+    
 }
 .headerwrap-desktop{
  -webkit-background-size: 100% !important;
@@ -387,19 +411,37 @@ a.non-link {
  }
 }
 
+
+
 //need to add this class here and make important to overide on mobile.
 
 @media(max-width: 768px) {
 
     .container-min {
         min-width:340px !important;
+        height:520px !important;
+    }
+
+    #other-background {
+        width:100%;
+        height: 200px;
+
+         a#book-link {
+            margin-top:10%;
+         }
+
+        .see-sample {
+
+        }
     }
 
     #book-background-image {
         // background-image:none;
         // background-color: #612E19;
         // padding-right:20px;
-         background: url('../img/jaw_background_small.png') no-repeat center top;
+        background: url('../img/jaw_background_small.png') no-repeat center top;
+        width:100%;
+        height: 400px;
 
         h1 {
             font-size: 60px;
