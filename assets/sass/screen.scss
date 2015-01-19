@@ -42,7 +42,7 @@
 //  h1, h2, h3, h4, h5, h6, p {
 //     font-family: 'Gotham-Book' !important;
 
-// }    
+// }
 
 p, a {
     font-family: "Gotham-Book";
@@ -55,6 +55,8 @@ p, a {
 .margin-bottom-0 {
     margin-bottom:0;
 }
+
+
 
 .menu-open {
     .menu-name {
@@ -253,6 +255,11 @@ a.non-link {
         width:60%;
     }
 
+    .home-logo {
+        height:40%;
+        width:40%;
+    }
+
     iframe {
         height: 250px;
         width: 350px;
@@ -341,7 +348,7 @@ a.non-link {
 }
 
 .container-min {
-  height: 1090px;  
+  height: 1090px;
 }
 #book-background-image {
     // background: url('../img/book_background_new.png') no-repeat center top;
@@ -375,7 +382,7 @@ a.non-link {
         text-align:right;
     }
 
-    
+
 
     p {
         text-transform: uppercase;
@@ -393,7 +400,7 @@ a.non-link {
         margin-top: 7%;
     }
 
-    
+
 }
 .headerwrap-desktop{
  -webkit-background-size: 100% !important;
