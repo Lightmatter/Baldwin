@@ -722,6 +722,12 @@ a.non-link:hover {
 }
 
 @media (max-width: 1024px) {
+  /* line 240, ../sass/screen.scss */
+  .image-wrapper-long img {
+    height: 60% !important;
+    width: 60% !important;
+  }
+
   /* line 245, ../sass/screen.scss */
   iframe {
     height: 300px;
@@ -731,8 +737,8 @@ a.non-link:hover {
 @media (max-width: 768px) {
   /* line 253, ../sass/screen.scss */
   .image-wrapper-long img {
-    height: 60%;
-    width: 60%;
+    height: 60% !important;
+    width: 60% !important;
   }
 
   /* line 258, ../sass/screen.scss */
