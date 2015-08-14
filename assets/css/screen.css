@@ -956,3 +956,8 @@ a.non-link:hover {
 .press img {
   width: 100%;
 }
+
+/* line 489, ../sass/screen.scss */
+.orange {
+  color: orange !important;
+}
