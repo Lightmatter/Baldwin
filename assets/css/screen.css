@@ -845,7 +845,7 @@ a.non-link:hover {
 /* line 353, ../sass/screen.scss */
 #book-background-image {
   background: url("../img/may_cover.png") no-repeat center top;
-  width: 72%;
+  width: 50%;
   float: left;
   height: 1090px;
 }
@@ -905,59 +905,64 @@ a.non-link:hover {
   }
 }
 @media (max-width: 768px) {
-  /* line 429, ../sass/screen.scss */
+  /* line 430, ../sass/screen.scss */
   .container-min {
     min-width: 340px !important;
     height: 520px !important;
   }
 
-  /* line 434, ../sass/screen.scss */
+  /* line 435, ../sass/screen.scss */
   #other-background {
     width: 100%;
     height: 200px;
   }
-  /* line 438, ../sass/screen.scss */
+  /* line 439, ../sass/screen.scss */
   #other-background a#book-link {
     margin-top: 10%;
   }
 
-  /* line 447, ../sass/screen.scss */
+  /* line 448, ../sass/screen.scss */
   #book-background-image {
     background: url("../img/jaw_background_small.png") no-repeat center top;
     width: 100%;
     height: 400px;
   }
-  /* line 455, ../sass/screen.scss */
+  /* line 456, ../sass/screen.scss */
   #book-background-image h1 {
     font-size: 60px;
   }
-  /* line 458, ../sass/screen.scss */
+  /* line 459, ../sass/screen.scss */
   #book-background-image h2 {
     font-size: 20px;
   }
-  /* line 462, ../sass/screen.scss */
+  /* line 463, ../sass/screen.scss */
   #book-background-image .bottom-push {
     margin-bottom: 20px;
   }
+
+  /* line 468, ../sass/screen.scss */
+  .iframe-widget {
+    width: 100% !important;
+  }
 }
-/* line 468, ../sass/screen.scss */
+/* line 473, ../sass/screen.scss */
 #twitter-widget-0 {
   margin-left: 20px;
   margin-top: 10px;
 }
 
-/* line 476, ../sass/screen.scss */
+/* line 481, ../sass/screen.scss */
 .press h3 {
   text-transform: uppercase;
   font-size: 48px;
   color: #808080;
 }
-/* line 482, ../sass/screen.scss */
+/* line 487, ../sass/screen.scss */
 .press img {
   width: 100%;
 }
 
-/* line 489, ../sass/screen.scss */
+/* line 494, ../sass/screen.scss */
 .orange {
-  color: orange !important;
+  color: #f85c37 !important;
 }

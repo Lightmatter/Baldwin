@@ -357,7 +357,7 @@ a.non-link {
     // background: url('../img/jaw_background.jpg') no-repeat center top;
     // background: url('../img/new_cover.png') no-repeat center top;
     background: url('../img/may_cover.png') no-repeat center top;
-    width:72%;
+    width:50%;
     float:left;
     height:1090px;
 
@@ -424,6 +424,7 @@ a.non-link {
 
 //need to add this class here and make important to overide on mobile.
 
+
 @media(max-width: 768px) {
 
     .container-min {
@@ -463,6 +464,10 @@ a.non-link {
             margin-bottom: 20px;
         }
     }
+
+    .iframe-widget {
+        width: 100% !important;
+    }
 }
 
 #twitter-widget-0 {
@@ -487,7 +492,7 @@ a.non-link {
 
 
 .orange {
-    color: orange !important;
+    color: #f85c37 !important;
 }
 
 
