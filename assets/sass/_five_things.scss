@@ -110,6 +110,10 @@
             cursor:pointer;
         }
     }
+
+    // img#main-promise {
+    //     width:100%;
+    // }
 }
 
 
@@ -120,7 +124,7 @@
 @media(max-width : 1824px) {
     .image-wrapper-large {
         img {
-            width:70%;
+            width:100%;
         }
     }
 }
