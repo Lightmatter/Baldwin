@@ -57,6 +57,32 @@ p, a {
 }
 
 
+.home-nyt {
+    bottom: 0px;
+    width: 30%;
+}
+
+
+
+.quote-row-home {
+// margin-top: 50%;
+margin-top: 20px;
+
+    p.quote-text {
+        font-style: italic;
+        text-align: center;
+
+    }
+    p.quote-person {
+        bottom: 20px;
+         font-style: italic;
+         text-align: center;
+    }
+
+    img {
+
+    }
+}
 
 .menu-open {
     .menu-name {

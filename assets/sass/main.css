@@ -1,0 +1,64 @@
+/*
+Error: File to import not found or unreadable: compass/css3.
+        on line 6 of screen.scss
+
+1: /* Welcome to Compass.
+2: * In this file you should write your main styles. (or centralize your imports)
+3: * Import this file using the following HTML or equivalent:
+4: * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> *\/
+5: 
+6: @import "compass/css3";
+7: @import "compass/reset";
+8: @import "variables";
+9: @import "buttons";
+10: @import "about";
+11: @import "five_things";
+
+Backtrace:
+screen.scss:6
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/import_node.rb:45:in `import'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/plugin.rb:108:in `method_missing'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:384:in `watch_or_update'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/bin/sass:23:in `load'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/bin/sass:23:in `<main>'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/gregoryhausheer/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: compass/css3.\A         on line 6 of screen.scss\A \A 1: /* Welcome to Compass.\A 2: * In this file you should write your main styles. (or centralize your imports)\A 3: * Import this file using the following HTML or equivalent:\A 4: * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/css3\";\A 7: @import \"compass/reset\";\A 8: @import \"variables\";\A 9: @import \"buttons\";\A 10: @import \"about\";\A 11: @import \"five_things\";"; }
