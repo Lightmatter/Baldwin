@@ -4,7 +4,7 @@ move_window = function(){
         current_promise = current_promise.slice(1);
     } else {
         var current_promise = "one";
-    } 
+    }
     $("[data-url='" + current_promise + "']").click();
 }
 
@@ -96,7 +96,7 @@ $('.highlight').click(function(){
 
 $('.highlight').click(function() {
     promise = $(this);
-    url = "five_promises.html#" + promise.data('url');
+    url = "three_promises.html#" + promise.data('url');
     title = promise.children('p').text();
     pageObject = {'title':title, 'url':url};
     history.pushState(pageObject, pageObject.title, pageObject.url);
